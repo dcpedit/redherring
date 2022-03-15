@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name redherring-rescue)(type Legacy)(uri ${KIPRJMOD}/redherring-rescue.lib)(options "")(descr ""))
+)
