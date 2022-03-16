@@ -23,3 +23,6 @@ If you're flashing a brand new MCU, you will need to use an ISP programmer to in
 ![Red Herring Keyboard - Black bottom](https://user-images.githubusercontent.com/800930/158265809-506c2c17-90a2-461c-805a-edcc67ee4858.jpg)
 ![Red Herring - white case and wrist resttop](https://user-images.githubusercontent.com/800930/158265839-f2421fac-abe0-415c-9541-d5451b20d82e.jpg)
 ![Red Herring - white case side](https://user-images.githubusercontent.com/800930/158265849-ca704bb8-14d1-48b8-b6d9-3dff6fe22589.jpg)
+
+## Thanks!
+This project would not have been possible without the time and dedication of everyone who worked on the amazing keyboards I learned and took inspiration from.  To name a few: Jabberwocky, Boardrun, Basketweave, Adelheid, Mercutio, Discipline, and Mysterium.
