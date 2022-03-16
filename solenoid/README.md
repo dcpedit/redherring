@@ -1,5 +1,5 @@
 # Solenoid Edition
-This is an experimental version of the keyboard that supports a solenoid
+This is an experimental version of the keyboard that supports a solenoid.  The files were created with KiCad 6.
 
 ## Additional components
 

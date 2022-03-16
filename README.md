@@ -1,15 +1,21 @@
 # Red Herring Keyboard
 
-Red Herring is a 75% ortholinear keyboard with staggered columns with a split ergonomic layout similar to an Arisu/Alice.  Here you will find the KiCad files for the PCB and plate, along with Illustrator files for the case and wrist rest.
+Red Herring is a 75% ortholinear keyboard with staggered columns and a split ergonomic layout similar to an Arisu/Alice.  Here you will find the KiCad 6 files for the PCB and plate, along with Illustrator files for the case and wrist rest. Keyboard features:
+- All through-hole components
+- Diodes arranged in a unique herringbone pattern
+- Large rotary encoder knob (up to 48mm diameter)
+- 64x128 OLED display (SSD1107)
+- Compatible with most standard keycap sets (1.75u for left shift, and 2u for left space)
+- Different [layout options](http://www.keyboard-layout-editor.com/#/gists/cf2afd92ae2ac742f6cb94146715b537), including ISO
 
-The PCB features all through-hole components with the diodes laid out in a herringbone pattern that follows the contour of the top row keys. I left a lot of room around the rotary encoder, so it can fit a 48mm diameter knob. And finally, front and center is a 64x128 OLED display.
-
-My excitement for this board stems largely from the ability to use standard keycaps. Whether they're cheap or expensive, as long as your kit has that extra 1.75u shift and a 2u key from the numpad, you're probably good to go. The oversized rotary knob is a bit ridiculous, but I personally find it amusing to look at. And even though it adds a lot of heft to the PCB, I love seeing exposed through-hole components.
-
-## Firmware (Vial):
-If you're flashing a brand new MCU, you will need to use an ISP programmer to install a bootloader first.  You will find links to instructions on how to do that in the readme.
+## Firmware ([Vial](https://get.vial.today/)):
 
 https://github.com/dcpedit/vial-qmk/blob/dcpedit/keyboards/dcpedit/redherring
+
+If you're flashing a brand new MCU, you will need to use an ISP programmer to install a bootloader first. I didn't have an AVR ISP programmer, so I flashed a spare Elite-C to do this.  You need to assembed the PCB and flash the ATmega32A with the USBaspLoader bootloader.
+
+[QMK's ISP flashing guide](https://github.com/qmk/qmk_firmware/blob/master/docs/isp_flashing_guide.md)
+
 
 ## Photos:
 ![Red Herring Keyboard - Black top](https://user-images.githubusercontent.com/800930/158265769-0780c26f-19fc-43e6-8f18-dc18801a05b9.jpg)
