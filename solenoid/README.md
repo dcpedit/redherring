@@ -10,7 +10,7 @@ This is an experimental version of the keyboard that supports a solenoid.  The f
 | D95     | 1N4001 Diode           | 1
 | SOL1    | 1x1 Pin Header         | 1
 | J3      | 1x2 Pin Header         | 1   | Optional
-| Solenoid| 4.5v Solenoid          | 1   | [Amazon link](https://amazon.com/gp/product/B013DR655A/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+| Solenoid| 4.5v Solenoid          | 1   | [Amazon link](https://www.amazon.com/dp/B013DR655A/ref=cm_sw_em_r_mt_dp_YHJRTZ5YY042HC7522VG?_encoding=UTF8&psc=1)
 | Jumper   | 1x2 Pin Jumper        | 1
 | M2x4mm   | Solenoid Screws       | 2
 | Solenoid Spacer | Paper spacer | 1     | Optional
@@ -28,11 +28,11 @@ Line on the diode needs to face the square pad (and match the line on the PCB)
 ![solenoid2](https://user-images.githubusercontent.com/800930/158442910-d3acf829-452f-4a17-b1ee-184f306e5d6a.jpg)
 
 ## Solenoid (J3)
-You can solder the solenoid wires directly into J3, or you can optionaly use a female header and solder pins to wires.  I used Mill-Max low-profile headers and pins since there's not that much clearance between the PCB and the case glass.
+You can solder the solenoid wires directly into J3, or you can optionaly use a female header and solder pins to wires.  I used Mill-Max low-profile headers and round pins since there's not that much clearance between the PCB and the case window.
 
 You can optionally cut a paper spacer (~0.5mm) under the solenoid to add some dampening, as well as height so that the piston doesn't hit the boot button.  Without the spacer, you may also need shorter screws.
 
-Side note:  I originally wanted to use the [SparkFun solenoid](https://www.digikey.com/en/products/detail/sparkfun-electronics/ROB-11015/6163694?utm_adgroup=Solenoids%2C%20Actuators&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Motors%2C%20Solenoids%2C%20Driver%20Boards%2FModules_NEW&utm_term=&utm_content=Solenoids%2C%20Actuators&gclid=Cj0KCQjwz7uRBhDRARIsAFqjulkD5bvbmNZgF2wNHvgtmM3YLebG2MK83YcMIa4nPg2AEQ-fdcAOFVUaAvB2EALw_wcB), but it didn't work when I hooked it up.  I felt the solenoid trying to fire, but the pin wasn't able to move.  My guess is that there's not enough current supplied by the USB-C port to drive this solenoid.  But the more expensive Amazon one I found works fine.
+Side note:  I originally wanted to use the [SparkFun solenoid](https://www.digikey.com/short/ppr2c3z3), but it didn't work when I hooked it up.  I felt the solenoid trying to fire, but the pin wasn't able to move.  My guess is that there's not enough current supplied by the USB-C port to drive this solenoid.  But the more expensive Amazon one I found works fine.
 
 ## Photos
 ![rh_vintage-11](https://user-images.githubusercontent.com/800930/158265871-e8e6e615-ddaa-4600-be71-8b93424b6f1d.jpg)
