@@ -1,5 +1,7 @@
 # Red Herring Stacked Acrylic Case
 
+![case-wires](https://user-images.githubusercontent.com/800930/158737611-4d48b5ed-aa60-4212-9865-cdf9784cfbe9.png)
+
 See the [build guide](/build-guide) for the hardware information and assembly instructions.
 
 The normal case file contains the design for a flat edge case, while the rounded file is the design for rounded edges.  (I've only built the rounded version)
