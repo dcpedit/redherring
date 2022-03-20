@@ -5,13 +5,13 @@ This is an experimental version of the keyboard that supports a solenoid.  The f
 
 | Ref     | Component              | Qty | Notes |
 | ---     | ---------              | --- | ----- |
-| Q1      | TIP120 Transistor      | 1 
+| Q1      | TIP120 Transistor      | 1   | [Link](https://www.amazon.com/gp/product/B08212F42Z/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 | R9      | 2.2k Resistor          | 1
 | D95     | 1N4001 Diode           | 1
-| SOL1    | 1x1 Pin Header         | 1
+| SOL1    | 1x1 Pin Header         | 1   | [Link](https://www.digikey.com/short/fttzt8p9)
 | J3      | 1x2 Pin Header         | 1   | Optional
 | Solenoid| 4.5v Solenoid          | 1   | [Amazon link](https://www.amazon.com/dp/B013DR655A/ref=cm_sw_em_r_mt_dp_YHJRTZ5YY042HC7522VG?_encoding=UTF8&psc=1)
-| Jumper   | 1x2 Pin Jumper        | 1
+| Jumper   | 1x2 Pin Jumper        | 1   | [Link](https://www.digikey.com/short/zvbr03pr)
 | M2x4mm   | Solenoid Screws       | 2
 | Solenoid Spacer | Paper spacer | 1     | Optional
 
