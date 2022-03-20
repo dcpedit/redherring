@@ -14,36 +14,36 @@ You will need the following tools and components to build the keyboard (not incl
 ## Included Components
 | Ref     | Component              | Qty | Notes |
 | ---     | ---------              | --- | ----- |
-| C1, C2  | 22pF Capacitor         | 2 
-| C3, C4  | 0.1uF Capacitor        | 2
+| C1, C2  | 22pF Capacitor         | 2   | [Link](https://www.mouser.com/ProductDetail/81-RCE5C2A220J0A2H3B)
+| C3, C4  | 0.1uF Capacitor        | 2   | [Link](https://www.mouser.com/ProductDetail/81-RDER71H104K0M1H3A)
 | C5      | 4.7uF Capacitor        | 1
-| D1-92   | 1n4148 Diode           | 92
-| D93, D94| 3.6V Zener Diode       | 2
-| FUSE    | 500mA Resettable fuse  | 1
-| ISP     | 6 pin header           | 1
-| OLED    | 4 pin header           | 1
-| USB     | GCT USB4085 USB C port | 1
-| POWER   | 3mm LED                | 1
+| D1-92   | 1n4148 Diode           | 92  | [Link](https://www.mouser.com/ProductDetail/512-1N4148TR)
+| D93, D94| 3.6V Zener Diode       | 2   | [Link](https://www.mouser.com/ProductDetail/78-TZX3V6A)
+| FUSE    | 500mA Resettable fuse  | 1   | [Link](https://www.mouser.com/ProductDetail/652-MFR050)
+| ISP     | 6 pin header           | 1   | [Link](https://www.mouser.com/ProductDetail/649-1012938190601BLF)
+| OLED    | 4 pin header           | 1   | [Link](https://www.mouser.com/ProductDetail/517-929850-01-04-RA)
+| USB     | GCT USB4085 USB C port | 1   | [Link](https://www.digikey.com/short/249pdt21)
+| POWER   | 3mm LED                | 1   | [Link](https://www.mouser.com/ProductDetail/859-LTL-4222)
 | Capslock| 1.8mm LED (3mm rev 2)  | 1
-| R1, R7  | 1.5k Resistor          | 2 
-| R8      | 470 Resistor           | 1 
-| R2, R5  | 5.1k Resistor          | 2 
-| R3, R4  | 75 Resistor            | 2 
-| R6      | 10k Resistor           | 1 
-| U1      | ATmega32A              | 1
-|         | 40 pin IC socket       | 1
-| RESET, BOOT | 6mm push button    | 2
-| Y1      | 16MHz Crystal          | 1
-|         | SH1107 OLED display    | 1
-|         | EC11 Rotary encoder    | 1
-|         | Knob                   | 1
-|         | M2 24mm standoff       | 5   | Upper edge
+| R1, R7  | 1.5k Resistor          | 2   | [Link](https://www.mouser.com/ProductDetail/603-MFR-12FTF52-1K5)
+| R8      | 470 Resistor           | 1   | [Link](https://www.mouser.com/ProductDetail/603-CFR-12JT-52-470R)
+| R2, R5  | 5.1k Resistor          | 2   | [Link](https://www.mouser.com/ProductDetail/603-MFR-12FTF52-5K1)
+| R3, R4  | 75 Resistor            | 2   | [Link](https://www.mouser.com/ProductDetail/603-CFR-12JR-52-75R)
+| R6      | 10k Resistor           | 1   | [Link](https://www.digikey.com/short/mn8dtmtv)
+| U1      | ATmega32A              | 1   | [Link](https://www.digikey.com/short/2d8502n2)
+|         | 40 pin IC socket       | 1   | [Link](https://www.mouser.com/ProductDetail/571-1-2199299-5)
+| RESET, BOOT | 6mm push button    | 2   | [Link](https://www.mouser.com/ProductDetail/642-MJTP1230A)
+| Y1      | 16MHz Crystal          | 1   | [Link](https://www.mouser.com/ProductDetail/520-ECS160-18-4X-CKM)
+|         | SH1107 OLED display    | 1   | [Link](https://www.aliexpress.com/item/4000464960639.html?spm=a2g0o.order_list.0.0.21ef1802wSwYcm)
+|         | EC11 Rotary encoder    | 1   | [Link](https://www.digikey.com/short/90v3w37p)
+|         | 48mm Knob              | 1   | [Link](https://www.aliexpress.com/item/4001316125393.html?spm=a2g0o.order_list.0.0.21ef1802wSwYcm)
+|         | M2 24mm standoff       | 5   | Upper edge, [Link](https://www.aliexpress.com/item/32968906213.html?spm=a2g0o.order_list.0.0.21ef1802wSwYcm)
 |         | M2 18mm standoff       | 1   | Middle left
 |         | M2 15mm standoff       | 1   | Middle right
 |         | M2 13mm standoff       | 5   | Lower edge
-|         | M2 6mm screw           | 12  | Bottom
+|         | M2 6mm screw           | 12  | Bottom, [Link](https://www.aliexpress.com/item/4001072025844.html?spm=a2g0o.order_list.0.0.21ef1802wSwYcm), [Link](https://www.aliexpress.com/item/1005002357962115.html?spm=a2g0o.order_list.0.0.21ef1802wSwYcm)
 |         | M2 8mm screw           | 12  | Top
-|         | Rubber Feet            | 4
+|         | Rubber Feet            | 4   | [Link](https://smile.amazon.com/gp/product/B088T7XMCY/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
 |         | Red Herring PCB        | 1
 |         | Switch plate           | 1
 |         | Plate foam (2mm)       | 1
