@@ -11,7 +11,7 @@ You will need the following tools and components to build the keyboard (not incl
 - 1.5mm allen wrentch (black screws, knob screw)
 - 1.27mm allen wrentch (silver screws)
 
-## Included Components
+## Components
 | Ref     | Component              | Qty | Notes |
 | ---     | ---------              | --- | ----- |
 | C1, C2  | 22pF Capacitor         | 2   | [Link](https://www.mouser.com/ProductDetail/81-RCE5C2A220J0A2H3B)
