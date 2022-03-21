@@ -2,6 +2,8 @@
 
 ![wrist-rest-wires](https://user-images.githubusercontent.com/800930/158737744-540b55b1-8214-49cb-b00d-84be67c9dd87.png)
 
+This design uses 6 layers cut out of 3mm thick acrylic.  Actual thickness may vary (mine was around 2.8mm).
+
 ## Standoffs
 This build will require round M2 standoffs with the following lengths:
 
