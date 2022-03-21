@@ -14,6 +14,7 @@ The layers should be cut out of 3mm thick acrylic.  The actual thickness of the 
 
 | Layer | Description |
 | ----- | ----------- |
+| 11d Top Clear Solenoid | Clear top for solenoid edition
 | 11c Top Solenoid Windows | Windows solenoid edition
 | 11b Top Alternate Windows | Windows for alternate top
 | 11b Top Alternate | Alternate top with windows
@@ -38,7 +39,10 @@ You do not need to cut all the #11 layers.  What you need will depend on which c
 - 11b Top Alternate
 - 11b Top Alternate Windows
 
-### Case: matching color top with clear windows for solenoid edition
+### Case - Solenoid edition: clear top
+- 11d Top Clear Solenoid
+
+### Case - Solenoid edition: matching color top with clear windows 
 - 11b Top Alternate
 - 11c Top Solenoid Windows
 
