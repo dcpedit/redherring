@@ -6,9 +6,11 @@ See the [build guide](/build-guide) for the hardware information and assembly in
 
 The normal case file contains the design for a flat edge case, while the rounded file is the design for rounded edges.  (I've only built the rounded version)
 
-There are a total of 11 layers of acrylic including the feet.  For the top layers that have clear windows, the windows are held in place by friction, so sizing might be a bit tricky.  I also used the natural tappering of the arcylic edges to "lock" the windows in place. It might be possible to use few dabs of acrylic cement (ie. Weld-On #4) to hold it in place, but I have not tried this.
+There are a total of 11 layers of 3mm thick acrylic including the feet.  For the top layers that have clear windows, the windows are held in place by friction, so sizing might be a bit tricky.  I also used the natural tappering of the arcylic edges to "lock" the windows in place. It might be possible to use few dabs of acrylic cement (ie. Weld-On #4) to hold it in place, but I have not tried this.
 
 ## Layer Descriptions
+
+The layers should be cut out of 3mm thick acrylic.  The actual thickness of the acrylic I used was about 2.8mm.
 
 | Layer | Description |
 | ----- | ----------- |
@@ -27,7 +29,7 @@ There are a total of 11 layers of acrylic including the feet.  For the top layer
 | Feet 2 | Layer #2
 | Feet 1 | Layer #1 (smallest foot layer)
 
-What you cut for layer #11 will depend on which case you're building.  Follow this guide below.
+You do not need to cut all the #11 layers.  What you need will depend on which case you're building.  Follow this guide below.
 
 ### Case: clear top
 - 11 Top Clear
@@ -39,3 +41,5 @@ What you cut for layer #11 will depend on which case you're building.  Follow th
 ### Case: matching color top with clear windows for solenoid edition
 - 11b Top Alternate
 - 11c Top Solenoid Windows
+
+**Notes:** I had to cut a small hole in the window for the solenoid because it was too tall to fit inside the case without it.  The windows are secured in place by friction only, so the sizing is important.  I adjusted the kerf for my laser cutter, so your mileage may vary.  If the fitment is too loose, it may just fall out, but I think a few dabs of acrylic cement around the perimeter of the window may hold it in place.  If you're unsure about the window fitment, I'd suggest going with the all-clear top to be safe.
