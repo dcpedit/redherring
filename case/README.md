@@ -48,6 +48,8 @@ You do not need to cut all the #11 layers.  What you need will depend on which c
 
 **Notes:** I had to cut a small hole in the window for the solenoid because it was too tall to fit inside the case without it.  The windows are secured in place by friction only, so the sizing is important.  I adjusted the kerf for my laser cutter, so your mileage may vary.  If the fitment is too loose, it may just fall out, but I think a few dabs of acrylic cement around the perimeter of the window may hold it in place.  If you're unsure about the window fitment, I'd suggest going with the all-clear top to be safe.
 
+There's also a spacer file which I used to cut a ~0.5mm spacer to go in between the PCB and solenoid (for the solenoid edition).  This was helpful for a few reasons: it dapens the sounds, it allows me to use the screws I had, which would've been too long otherwise, and it prevents the solenoid piston from hitting the boot button.  The spacer doesn't have to be exact. I cut mine out of a cracker box.  Cutting one out with scissors and punching small holes for the screws will work just fine as well.
+
 ## Foam Layer Descriptions
 
 The plate foam (between switch plate and PCB) should be 2mm thick, and the bottom foam (under the PCB) should be 1mm thick.  There's not that much room inside the case, so going too thick may cause the case the bulge.  To thin, and the PCB might shift around a bit, but probably not noticeable.  I used EVA foam, which works really well with laser cutters.
