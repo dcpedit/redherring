@@ -1,3 +1,5 @@
+![red herring plate](https://user-images.githubusercontent.com/800930/159297374-f91dda45-989a-4124-970c-2388b43b808c.png)
+
 # Red Herring switch plate
 The files here were created with KiCad 6.
 
