@@ -8,7 +8,7 @@ If you're flashing a brand new MCU, you need to first assemble the PCB, and then
 
 You will need an ISP programmer to flash the Atmega32a chip with the USBaspLoader bootloader, so please refer to the QMK guide on what to use.  I had a spare Elite-C lying around, so I converted that to an ISP programmer using `pro_micro_ISP_B6_10.hex`, which was taken from the QMK guide.  Here's a pic of my makeshift setup.  (I put a small amount of solder on the wire pins and tacked them down onto the pads so that I could easily remove them later)
 
-![ISP-programmer](https://user-images.githubusercontent.com/800930/159964447-baf44270-d5fb-4b8e-aaa3-c2c775221c04.jpg)
+<img src="https://user-images.githubusercontent.com/800930/159964447-baf44270-d5fb-4b8e-aaa3-c2c775221c04.jpg" width="300">
 
 Wire your ISP programmer up to the PCB header using the diagram below.
 

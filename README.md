@@ -10,12 +10,9 @@ Red Herring is a 75% ortholinear keyboard with staggered columns and a split erg
 
 ## Firmware ([Vial](https://get.vial.today/)):
 
-https://github.com/dcpedit/vial-qmk/blob/dcpedit/keyboards/dcpedit/redherring
+If you're flashing a brand new MCU, you will need to use an ISP programmer to install a bootloader first. I didn't have an AVR ISP programmer, so I flashed a spare Elite-C to do this.
 
-If you're flashing a brand new MCU, you will need to use an ISP programmer to install a bootloader first. I didn't have an AVR ISP programmer, so I flashed a spare Elite-C to do this.  You need to first assemble the PCB, and then flash the ATmega32A with the USBaspLoader bootloader.
-
-[QMK's ISP flashing guide](https://github.com/qmk/qmk_firmware/blob/master/docs/isp_flashing_guide.md)
-
+Look in the `firmware` folder for hex files and more info on flashing.
 
 ## Photos:
 ![Red Herring Keyboard - Black top](https://user-images.githubusercontent.com/800930/158265769-0780c26f-19fc-43e6-8f18-dc18801a05b9.jpg)
