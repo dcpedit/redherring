@@ -10,6 +10,7 @@ For KiCad 6, I used the following settings in case anyone wanted to generate the
 ## Generate drill files
 <img width="400" alt="KiCad6_Drill" src="https://user-images.githubusercontent.com/800930/160165116-90bfb000-fe85-4636-aafe-0d3caa876871.png">
 
+## Gerber files
 
 | File | Description | Thickness | Size
 | ---- | ----------- | --------- | ----
