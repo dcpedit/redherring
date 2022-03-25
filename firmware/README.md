@@ -30,6 +30,8 @@ Set fuses
 avrdude -c avrisp -P <PORT> -p atmega32 -U lfuse:w:0x1f:m -U hfuse:w:0xc0:m
 ```
 
+In order to put the board into bootloader mode you must first hold the boot button (labeled BOOT) and while holding the boot button, press the reset button (labeled RESET) and release it. Wait for another second, then release the boot button as well. The microcontroller will now be in bootloader mode if the bootloader is present and prepared correctly. Continue to flash as you normally would from this point (ie. QMK Toolbox). If you have autoflash enabled on QMK Toolbox, it will do it automatically now. Reset the board once more in order to use the new firmware (you can do this by unplugging and replugging it or by pressing and releasing the reset button.)
+
 ## Vial Firmware
 
 You'll need the [Vial software](https://get.vial.today) if you want to remap your keys.
