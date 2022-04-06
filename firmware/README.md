@@ -18,7 +18,12 @@ Install `avrdude`:
 - [MacOS](https://formulae.brew.sh/formula/avrdude)
 - [Windows](https://github.com/mariusgreuel/avrdude)
 
-Use the `bootloader.hex` and flash with the following commands.  You will need to replace `<PORT>` with the location of your ISP's USB port.  You can look in your Device Manager (Windows ex: `COM3`), or your `/dev` directory for `/dev/tty.usb*` (MacOS ex: `/dev/tty.usbmodem12345`)
+Use the `bootloader.hex` and flash with the following commands.  You will need to replace `<PORT>` with the location of your ISP's USB port.  You can look in your Device Manager (Windows ex: `COM3`), or your `/dev` directory for `tty.usb*` (MacOS ex: `/dev/tty.usbmodem12345`)
+
+View attached device
+```
+avrdude -c avrisp -P <PORT> -p atmega32 -v
+```
 
 Flash bootloader
 ```
