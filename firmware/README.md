@@ -25,15 +25,27 @@ View attached device
 avrdude -c avrisp -P <PORT> -p atmega32 -v
 ```
 
+Example output:
+
+<img width="300" alt="avrdude-verbose" src="https://user-images.githubusercontent.com/800930/162041817-e4a9338a-5266-49d1-8a73-11211430af65.png">
+
 Flash bootloader
 ```
 avrdude -c avrisp -P <PORT> -p atmega32 -U flash:w:bootloader.hex:i
 ```
 
+Example output:
+
+<img width="300" alt="avrdude-flash" src="https://user-images.githubusercontent.com/800930/162041873-8d746441-d73a-48d1-ac0f-a9b9d2a509ba.png">
+
 Set fuses
 ```
 avrdude -c avrisp -P <PORT> -p atmega32 -U lfuse:w:0x1f:m -U hfuse:w:0xc0:m
 ```
+
+Example output:
+
+<img width="300" alt="avrdude-fuse" src="https://user-images.githubusercontent.com/800930/162041912-8252818f-7424-48f0-bc7f-8fe16f5c51c1.png">
 
 In order to put the board into bootloader mode you must first hold the boot button (labeled BOOT) and while holding the boot button, press the reset button (labeled RESET) and release it. Wait for another second, then release the boot button as well. The microcontroller will now be in bootloader mode if the bootloader is present and prepared correctly. Continue to flash as you normally would from this point (ie. QMK Toolbox). If you have autoflash enabled on QMK Toolbox, it will do it automatically now. Reset the board once more in order to use the new firmware (you can do this by unplugging and replugging it or by pressing and releasing the reset button.)
 
