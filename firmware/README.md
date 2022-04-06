@@ -36,7 +36,7 @@ avrdude -c avrisp -P <PORT> -p atmega32 -U flash:w:bootloader.hex:i
 
 Example output:
 
-<img width="300" alt="avrdude-flash" src="https://user-images.githubusercontent.com/800930/162043152-a1dba319-4094-454a-a9ed-6b3fd0097718.png">
+<img width="300" alt="avrdude-flash" src="https://user-images.githubusercontent.com/800930/162043576-13a48c8b-9cdb-4fc3-b4e3-8cbba6186edc.png">
 
 ### Set fuses
 ```
