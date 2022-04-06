@@ -20,7 +20,7 @@ Install `avrdude`:
 
 Use the `bootloader.hex` and flash with the following commands.  You will need to replace `<PORT>` with the location of your ISP's USB port.  You can look in your Device Manager (Windows ex: `COM3`), or your `/dev` directory for `tty.usb*` (MacOS ex: `/dev/tty.usbmodem12345`)
 
-View attached device
+### View attached device
 ```
 avrdude -c avrisp -P <PORT> -p atmega32 -v
 ```
@@ -29,16 +29,15 @@ Example output:
 
 <img width="300" alt="avrdude-verbose" src="https://user-images.githubusercontent.com/800930/162041817-e4a9338a-5266-49d1-8a73-11211430af65.png">
 
-Flash bootloader
+### Flash bootloader
 ```
 avrdude -c avrisp -P <PORT> -p atmega32 -U flash:w:bootloader.hex:i
 ```
 
 Example output:
+<img width="300" alt="avrdude-flash" src="https://user-images.githubusercontent.com/800930/162043152-a1dba319-4094-454a-a9ed-6b3fd0097718.png">
 
-<img width="300" alt="avrdude-flash" src="https://user-images.githubusercontent.com/800930/162041873-8d746441-d73a-48d1-ac0f-a9b9d2a509ba.png">
-
-Set fuses
+### Set fuses
 ```
 avrdude -c avrisp -P <PORT> -p atmega32 -U lfuse:w:0x1f:m -U hfuse:w:0xc0:m
 ```
