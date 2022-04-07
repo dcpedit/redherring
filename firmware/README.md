@@ -10,7 +10,7 @@ You will need an ISP programmer to flash the Atmega32a chip with the USBaspLoade
 
 <img src="https://user-images.githubusercontent.com/800930/159964447-baf44270-d5fb-4b8e-aaa3-c2c775221c04.jpg" width="300">
 
-Wire your ISP programmer up to the PCB header using the diagram below.
+Wire your ISP programmer up to the PCB header using the diagram below. Then connect your computer to the ISP programmer. The PCB should NOT be connected directly to your computer.
 
 ![redherring-isp-pins](https://user-images.githubusercontent.com/800930/159964496-9e8c598b-5344-4687-b6e2-8b20bfc25552.jpg)
 
@@ -47,7 +47,11 @@ Example output:
 
 <img width="300" alt="avrdude-fuse" src="https://user-images.githubusercontent.com/800930/162041912-8252818f-7424-48f0-bc7f-8fe16f5c51c1.png">
 
-In order to put the board into bootloader mode you must first hold the boot button (labeled BOOT) and while holding the boot button, press the reset button (labeled RESET) and release it. Wait for another second, then release the boot button as well. The microcontroller will now be in bootloader mode if the bootloader is present and prepared correctly. Continue to flash as you normally would from this point (ie. QMK Toolbox). If you have autoflash enabled on QMK Toolbox, it will do it automatically now. Reset the board once more in order to use the new firmware (you can do this by unplugging and replugging it or by pressing and releasing the reset button.)
+You can now disconnect your ISP programmer and connect the PCB directly to your computer via the USB-C port.  Make sure you have [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases) open so that you can monitor the status window and flash the firmware.  In order to put the board into bootloader mode you must first hold the boot button (labeled BOOT) and while holding the boot button, press the reset button (labeled RESET) and release it. Wait for another second, then release the boot button as well. The microcontroller will now be in bootloader mode if the bootloader is present and prepared correctly.
+
+The QMK Toolbox status window should output: `USBAsp device connected`.
+
+Continue to flash as you normally would from this point (ie. QMK Toolbox using `redherring_vial.hex`). If you have autoflash enabled on QMK Toolbox, it will do it automatically now. Reset the board once more in order to use the new firmware (you can do this by unplugging and replugging it or by pressing and releasing the reset button.)
 
 ## Vial Firmware
 
