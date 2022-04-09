@@ -14,15 +14,15 @@ Wire your ISP programmer up to the PCB header using the diagram below. Then conn
 
 ![redherring-isp-pins](https://user-images.githubusercontent.com/800930/159964496-9e8c598b-5344-4687-b6e2-8b20bfc25552.jpg)
 
-Install `avrdude`:
-- [MacOS](https://formulae.brew.sh/formula/avrdude)
-- [Windows](https://github.com/mariusgreuel/avrdude)
+Install `avrdude` or QMK MSYS for Windows:
+- [MacOS avrdude](https://formulae.brew.sh/formula/avrdude)
+- [Windows QMK MSYS](https://msys.qmk.fm/)
 
-Use the `bootloader.hex` and flash with the following commands.  You will need to replace `<PORT>` with the location of your ISP's USB port.  You can look in your Device Manager (Windows ex: `COM3`), or your `/dev` directory for `tty.usb*` (MacOS ex: `/dev/tty.usbmodem12345`)
+Use the `bootloader.hex` and flash with the following commands.  You will need to replace `<PORT>` with the location of your ISP's USB port.  You can look in your Device Manager (Windows ex: Ports -> `COM3`), or your `/dev` directory for `tty.usb*` (MacOS ex: `/dev/tty.usbmodem12345`).  You may need to change `avrisp` to the programmer that you're using.  Again, please check the [QMK docs](https://github.com/qmk/qmk_firmware/blob/master/docs/isp_flashing_guide.md) for more info.
 
 ### View attached device
 ```
-avrdude -c avrisp -P <PORT> -p atmega32 -v
+avrdude -c avrisp -P <PORT> -b 19200 -p atmega32 -v
 ```
 
 Example output:
@@ -31,7 +31,7 @@ Example output:
 
 ### Flash bootloader
 ```
-avrdude -c avrisp -P <PORT> -p atmega32 -U flash:w:bootloader.hex:i
+avrdude -c avrisp -P <PORT> -b 19200 -p atmega32 -U flash:w:bootloader.hex:i
 ```
 
 Example output:

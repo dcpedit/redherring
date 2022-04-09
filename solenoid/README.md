@@ -28,7 +28,7 @@ Line on the diode needs to face the square pad (and match the line on the PCB)
 ![solenoid2](https://user-images.githubusercontent.com/800930/158442910-d3acf829-452f-4a17-b1ee-184f306e5d6a.jpg)
 
 ## Solenoid (J3)
-You can solder the solenoid wires directly into J3, or you can optionaly use a female header and solder pins to wires.  I used Mill-Max low-profile headers and round pins since there's not that much clearance between the PCB and the case window.
+You can solder the solenoid wires directly into J3, or you can optionaly use a female header and solder pins to wires.  I used Mill-Max low-profile headers and round pins since there's not that much clearance between the PCB and the case window.  The wires were cut down to 20mm in length.
 
 You can optionally cut a paper spacer (~0.5mm) under the solenoid to add some dampening, as well as height so that the piston doesn't hit the boot button.  Without the spacer, you may also need shorter screws.
 
