@@ -144,8 +144,8 @@ Align the notch on the IC Socket with the markings on the PCB. Fold the pins inw
 ![reset-boot](https://user-images.githubusercontent.com/800930/144701061-e5c8209f-8070-471a-a7a6-63bdfa80daea.jpg)
 ![mcu-socket](https://user-images.githubusercontent.com/800930/144701085-cd923aeb-6c7e-4874-a35e-32b6a685cbe9.jpg)
 
-### Pin Header
-Orientation does not matter. 
+### ISP Pin Header
+Orientation does not matter, but the longer pins go on top so that you can solder the shorter bottom pins.
 
 ![isp1](https://user-images.githubusercontent.com/800930/144701062-1a878a6f-ad83-4e97-842a-774bb77d88d0.jpg)
 
