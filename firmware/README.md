@@ -61,4 +61,11 @@ Source:
 
 https://github.com/dcpedit/vial-qmk/blob/dcpedit/keyboards/dcpedit/redherring
 
-Use the `redherring_vial.hex` firmware.
+Use the `redherring_vial.hex` firmware.  Below is a list of commands to build.
+
+```
+git clone --recurse-submodules -b dcpedit https://github.com/dcpedit/vial-qmk.git
+cd vial-qmk
+make git-submodule
+make dcpedit/redherring:vial
+```
