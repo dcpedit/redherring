@@ -69,3 +69,7 @@ cd vial-qmk
 make git-submodule
 make dcpedit/redherring:vial
 ```
+
+## Change OLED graphic
+<img width="930" alt="image2cpp" src="https://user-images.githubusercontent.com/800930/167908002-3e742749-54bd-4462-849a-0b336dee4f01.png">
+
