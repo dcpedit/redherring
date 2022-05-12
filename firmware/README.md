@@ -71,5 +71,44 @@ make dcpedit/redherring:vial
 ```
 
 ## Change OLED graphic
-<img width="930" alt="image2cpp" src="https://user-images.githubusercontent.com/800930/167908002-3e742749-54bd-4462-849a-0b336dee4f01.png">
 
+In order to change the image, you'll first need to create a 64x128 two-tone image using only black and white pixels (no gray) and save it as a PNG.  Once you do that, upload your image to this online image2cpp tool (https://javl.github.io/image2cpp/), and use the below settings.  Note that the output format is "plain bytes" and draw mode is "vertical - 1 bit per pixel"
+
+<img width="300" alt="image2cpp" src="https://user-images.githubusercontent.com/800930/167908002-3e742749-54bd-4462-849a-0b336dee4f01.png">
+
+Clicking the "Generate code" button will produce the code you need.
+
+Next open the `keymap.c` file located in your vial keymap directory.  (ex: `keyboards/dcpedit/redherring/keymaps/vial`)
+
+Add a define for you image size at the top (assuming 64x128):
+
+```
+#define LOGO_SIZE 1024
+```
+
+Next define a `render_logo` function.  If one already exists, you can replace that.  This is where you paste in the code generated from image2cpp.  Here's an example of what the function would look like:
+
+```
+static void render_logo(void) {
+    static const char PROGMEM oled_logo[LOGO_SIZE] = {
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        /* ... should be 64 lines of this ... */
+    };
+
+    oled_write_raw_P(oled_logo, LOGO_SIZE);
+}
+```
+
+Finally, update your `oled_task_user` function to move the cursor and display the logo.  It should look something like this:
+
+```
+bool oled_task_user(void) {
+    oled_set_cursor(0,0);
+    render_logo();
+    return false;
+}
+```
+
+You can see an example image and `keymap.c` in the [example_logo folder](example_logo)
