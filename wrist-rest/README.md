@@ -16,5 +16,6 @@ This build will require round M2 standoffs with the following lengths:
 The following screw sizes are also needed
 | |Size|Qty|
 |:--|:--:|:--:|
-|**Top Layer**|M2x8mm|5|
-|**Bottom Layer**|M2x6mm|5|
+|**Top Layer**|M2x8mm|10|
+|**Bottom Layer (upper)**|M2x6mm|5|
+|**Bottom Layer (lower)**|M2x4mm|5|
