@@ -16,7 +16,7 @@ You will need the following tools and components to build the keyboard (not incl
 | ---     | ---------              | --- | ----- |
 | C1, C2  | 22pF Capacitor         | 2   | [Link](https://www.mouser.com/ProductDetail/81-RCE5C2A220J0A2H3B)
 | C3, C4  | 0.1uF Capacitor        | 2   | [Link](https://www.mouser.com/ProductDetail/81-RDER71H104K0M1H3A)
-| C5      | 4.7uF Capacitor        | 1
+| C5      | 4.7uF Capacitor        | 1   | [Link](https://www.mouser.com/ProductDetail/Nichicon/UMT1H4R7MDD?qs=jeFazJX0ZRzElcQ8UcwUoQ%3D%3D)
 | D1-92   | 1n4148 Diode           | 92  | [Link](https://www.mouser.com/ProductDetail/512-1N4148TR)
 | D93, D94| 3.6V Zener Diode       | 2   | [Link](https://www.mouser.com/ProductDetail/78-TZX3V6A)
 | FUSE    | 500mA Resettable fuse  | 1   | [Link](https://www.mouser.com/ProductDetail/652-MFR050)
@@ -29,7 +29,7 @@ You will need the following tools and components to build the keyboard (not incl
 | R8      | 470 Resistor           | 1   | [Link](https://www.mouser.com/ProductDetail/603-CFR-12JT-52-470R)
 | R2, R5  | 5.1k Resistor          | 2   | [Link](https://www.mouser.com/ProductDetail/603-MFR-12FTF52-5K1)
 | R3, R4  | 75 Resistor            | 2   | [Link](https://www.mouser.com/ProductDetail/603-CFR-12JR-52-75R)
-| R6      | 10k Resistor           | 1   | [Link](https://www.digikey.com/short/mn8dtmtv)
+| R6      | 10k Resistor           | 1   | [Link](https://www.mouser.com/ProductDetail/YAGEO/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D)
 | U1      | ATmega32A              | 1   | [Link](https://www.digikey.com/short/2d8502n2)
 |         | 40 pin IC socket       | 1   | [Link](https://www.mouser.com/ProductDetail/571-1-2199299-5)
 | RESET, BOOT | 6mm push button    | 2   | [Link](https://www.mouser.com/ProductDetail/642-MJTP1230A)
