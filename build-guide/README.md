@@ -34,7 +34,7 @@ You will need the following tools and components to build the keyboard (not incl
 |         | 40 pin IC socket       | 1   | [Link](https://www.mouser.com/ProductDetail/571-1-2199299-5)
 | RESET, BOOT | 6mm push button    | 2   | [Link](https://www.mouser.com/ProductDetail/642-MJTP1230A)
 | Y1      | 16MHz Crystal          | 1   | [Link](https://www.mouser.com/ProductDetail/520-ECS160-18-4X-CKM)
-|         | SH1107 OLED display    | 1   | [Link](https://www.aliexpress.com/item/4000464960639.html?spm=a2g0o.order_list.0.0.21ef1802wSwYcm)
+|         | SH1107 64x128 OLED display    | 1   | [Link](https://www.aliexpress.com/item/3256804196997547.html)
 |         | EC11 Rotary encoder    | 1   | [Link](https://www.digikey.com/short/90v3w37p)
 |         | 48mm Knob              | 1   | [Link](https://www.aliexpress.com/item/4001316125393.html?spm=a2g0o.order_list.0.0.21ef1802wSwYcm)
 |         | M2 24mm standoff       | 5   | Upper edge, [Link](https://www.aliexpress.com/item/32968906213.html?spm=a2g0o.order_list.0.0.21ef1802wSwYcm)
