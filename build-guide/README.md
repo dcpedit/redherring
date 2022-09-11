@@ -22,7 +22,7 @@ You will need the following tools and components to build the keyboard (not incl
 | FUSE    | 500mA Resettable fuse  | 1   | [Link](https://www.mouser.com/ProductDetail/652-MFR050)
 | ISP     | 6 pin header           | 1   | [Link](https://www.mouser.com/ProductDetail/649-1012938190601BLF)
 | OLED    | 4 pin header           | 1   | [Link](https://www.mouser.com/ProductDetail/517-929850-01-04-RA)
-| USB     | GCT USB4085 USB C port | 1   | [Link](https://www.digikey.com/short/249pdt21)
+| USB     | GCT USB4085 USB C port | 1   | [Link](https://www.digikey.com/short/249pdt21), [Link](https://mou.sr/3Dgb4TO)
 | POWER   | 3mm LED                | 1   | [Link](https://www.mouser.com/ProductDetail/859-LTL-4222)
 | Capslock| 1.8mm LED (3mm rev 2)  | 1
 | R1, R7  | 1.5k Resistor          | 2   | [Link](https://www.mouser.com/ProductDetail/603-MFR-12FTF52-1K5)
