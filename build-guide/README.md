@@ -29,7 +29,7 @@ You will need the following tools and components to build the keyboard (not incl
 | R8      | 470 Resistor           | 1   | [Link](https://www.mouser.com/ProductDetail/603-CFR-12JT-52-470R)
 | R2, R5  | 5.1k Resistor          | 2   | [Link](https://www.mouser.com/ProductDetail/603-MFR-12FTF52-5K1)
 | R3, R4  | 75 Resistor            | 2   | [Link](https://www.mouser.com/ProductDetail/603-CFR-12JR-52-75R)
-| R6      | 10k Resistor           | 1   | [Link](https://www.mouser.com/ProductDetail/YAGEO/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D)
+| R6      | 10k Resistor           | 1   | [Link](https://www.mouser.com/ProductDetail/YAGEO/MFR-12FTF52-10K?qs=oAGoVhmvjhzLlUYKKBtdYQ%3D%3D), [Link](https://mou.sr/3xgqcNf)
 | U1      | ATmega32A              | 1   | [Link](https://www.digikey.com/short/2d8502n2), [Link](https://mou.sr/3RYkSGt)
 |         | 40 pin IC socket       | 1   | [Link](https://www.mouser.com/ProductDetail/571-1-2199299-5)
 | RESET, BOOT | 6mm push button    | 2   | [Link](https://www.mouser.com/ProductDetail/642-MJTP1230A)
