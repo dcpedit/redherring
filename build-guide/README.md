@@ -178,7 +178,7 @@ This is also a high resolution image of the completed PCB.
 
 ### Plate Foam & Switch plate
 
-The 2mm plate foam goes between the PCB and switch plate.  Make sure those are in place before placing your switches in.  As you insert switch one at a time, make they snap into switch plate completely.  You man need to wedge a finger or tool in between the PCB and plate to push the plate upwards while pushing the switch downwards.
+The 2mm plate foam goes between the PCB and switch plate.  Make sure those are in place before placing your switches in.  As you insert switch one at a time, make sure they snap into switch plate completely.  You man need to wedge a finger or tool in between the PCB and plate to push the plate upwards while pushing the switch downwards.
 
 ![IMG_3048 (1)](https://user-images.githubusercontent.com/800930/144715808-5441f024-4c31-4cf4-8151-d7efeb58badb.jpg)
 
