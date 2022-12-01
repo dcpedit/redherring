@@ -2,7 +2,8 @@
 
 | File | Description | Thickness | Size
 | ---- | ----------- | --------- | ----
-| `pcb-gerbers.zip`  | Red Herring PCB | 1.6 mm | 364.4 x 167.2 mm
+| `pcb-gerbers.zip`  | Red Herring Through-Hole PCB | 1.6 mm | 364.4 x 167.2 mm
+| `pcb-hotswap-gerbers.zip`  | Red Herring Hotswap PCB | 1.6 mm | 364.4 x 167.2 mm
 | `solenoid-gerbers.zip` | Red Herring solenoid edition PCB | 1.6 mm | 364.4 x 167.2 mm
 | `plate-gerbers.zip` | Red Herring switch plate (1.2mm) | 1.2 mm | 364.4 x 144.6 mm
 

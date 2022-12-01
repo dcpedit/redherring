@@ -2,8 +2,6 @@
 #### Hotswap variant by [ungodly.design](https://ungodly.design)
 The files here were created with KiCad 6.
 
-**Disclaimer:** This design is untested. Awaiting PCBs from factory, ETA NOV-11-2022.
-
 ![KiCad-screenshot](https://i.imgur.com/mvi7EyR.png)
 
 ## Manufacturing

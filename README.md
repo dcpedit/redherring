@@ -1,7 +1,7 @@
 # Red Herring Keyboard
 
 Red Herring is a 75% ortholinear keyboard with staggered columns and a split ergonomic layout similar to an Arisu/Alice.  Here you will find the KiCad 6 files for the PCB and plate, along with Illustrator files for the case and wrist rest. Keyboard features:
-- All through-hole components
+- Through-hole or hotswap socket variants
 - Diodes arranged in a unique herringbone pattern
 - Large rotary encoder knob (up to 48mm diameter)
 - 64x128 OLED display (SSD1107)
