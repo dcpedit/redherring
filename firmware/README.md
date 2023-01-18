@@ -53,6 +53,8 @@ The QMK Toolbox status window should output: `USBAsp device connected`.
 
 Continue to flash as you normally would from this point (ie. QMK Toolbox using `redherring_vial.hex`). If you have autoflash enabled on QMK Toolbox, it will do it automatically now. Reset the board once more in order to use the new firmware (you can do this by unplugging and replugging it or by pressing and releasing the reset button.)
 
+If you're still having issues with the bootloader, you can also take a look at this detailed guide written by Protieus: `Atmega32a_Flash_Guide.pdf`
+
 ## Vial Firmware
 
 You'll need the [Vial software](https://get.vial.today) if you want to remap your keys.
