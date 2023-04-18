@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "red_herring_v2_footprints")(type "KiCad")(uri "${KIPRJMOD}/redherring_v2_kicad_libraries/red_herring_v2_footprints")(options "")(descr ""))
+)

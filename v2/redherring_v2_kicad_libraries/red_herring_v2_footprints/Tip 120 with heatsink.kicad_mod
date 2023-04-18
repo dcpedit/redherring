@@ -1,0 +1,50 @@
+(footprint "Tip 120 with heatsink" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
+  (tags "TO-220-3 Horizontal RM 2.54mm")
+  (attr through_hole)
+  (fp_text reference "REF**" (at -0.03 -1.4375) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3e74c4ac-d8e4-442e-b651-ed8f42c18567)
+  )
+  (fp_text value "Tip 120 with heatsink" (at 0.03 14.14) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bfb72d85-0609-436b-a8e4-f25a44c2d30b)
+  )
+  (fp_line (start -5.12 -7.5475) (end 5.12 -7.5475)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp a7e58aa7-6b8d-4285-9a45-ef112365eb87))
+  (fp_line (start -2.54 -10.0875) (end -2.54 -7.5475)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 5c03bfa7-5f04-4a5d-82f1-8609cd3836c1))
+  (fp_line (start 0 -10.0875) (end 0 -7.5475)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 0afdd74f-de2f-494e-ab68-44b6e89beecd))
+  (fp_line (start 2.54 -10.0875) (end 2.54 -7.5475)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp a4486e7f-4062-41fa-a6d0-b724d7c4dea0))
+  (fp_rect (start 7.5 12.4525) (end -7.5 -7.5475)
+    (stroke (width 0.12) (type default)) (fill none) (layer "F.SilkS") (tstamp 87a6a110-74a3-42b5-bea3-ebbc4392b18a))
+  (fp_rect (start -3.83 -12.4875) (end 3.86 -9.8575)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 5b2fdf7c-310d-47e3-98b9-b0fc20ce870f))
+  (pad "" np_thru_hole circle (at 0.03 8.4525) (size 6 6) (drill 6) (layers "F&B.Cu" "*.Mask") (tstamp 388034ca-8b76-48c2-9f60-4140367c75c2))
+  (pad "1" thru_hole rect (at -2.54 -11.2375) (size 1.905 2) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 3df413da-64eb-4ec6-8a0d-403967777249))
+  (pad "2" thru_hole oval (at 0 -11.2375) (size 1.905 2) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 27701952-d3b2-4a2e-883e-02062b0b688e))
+  (pad "3" thru_hole oval (at 2.54 -11.2375) (size 1.905 2) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp eca9fd38-9363-4a69-a047-6b34b28525ed))
+  (group "" (id b2e77935-1dcb-41da-a2fd-971e18aa9ddd)
+    (members
+      0afdd74f-de2f-494e-ab68-44b6e89beecd
+      27701952-d3b2-4a2e-883e-02062b0b688e
+      388034ca-8b76-48c2-9f60-4140367c75c2
+      3df413da-64eb-4ec6-8a0d-403967777249
+      3e74c4ac-d8e4-442e-b651-ed8f42c18567
+      5b2fdf7c-310d-47e3-98b9-b0fc20ce870f
+      5c03bfa7-5f04-4a5d-82f1-8609cd3836c1
+      87a6a110-74a3-42b5-bea3-ebbc4392b18a
+      a4486e7f-4062-41fa-a6d0-b724d7c4dea0
+      a7e58aa7-6b8d-4285-9a45-ef112365eb87
+      eca9fd38-9363-4a69-a047-6b34b28525ed
+    )
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabUp.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
