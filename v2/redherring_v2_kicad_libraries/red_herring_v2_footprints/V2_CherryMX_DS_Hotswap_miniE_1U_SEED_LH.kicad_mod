@@ -127,6 +127,7 @@
   (pad "" np_thru_hole circle (at 3.81 2.54 180) (size 3 3) (drill 3) (layers "*.Cu" "*.Mask") (tstamp 47cc8a6e-cd53-41f3-9cdc-a51fdca1b125))
   (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 3238b505-8643-445a-9d67-b4d3ca06f367))
   (pad "" np_thru_hole circle (at 5.08 0 180) (size 1.75 1.75) (drill 1.75) (layers "*.Cu" "*.Mask") (tstamp 9583bbe6-6191-4bab-8179-ee86895f47ec))
+  (pad "1" thru_hole circle (at -3.27 -5.844865 180) (size 0.4 0.4) (drill 0.25) (layers "*.Cu" "*.Mask") (tstamp 53073421-2179-4c37-94e3-d2c2f2c0b0b2))
   (pad "1" smd custom (at -2.6995 -5.844865) (size 0.85 0.85) (layers "B.Cu")
     (clearance 0.2) (zone_connect 2) (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
