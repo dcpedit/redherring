@@ -1219,11 +1219,11 @@
         )
       )
     )
-    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:VDD" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "VCC" (at 0 3.81 0)
+      (property "Value" "VDD" (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -1235,10 +1235,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"VDD\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "VCC_0_1"
+      (symbol "VDD_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -1264,9 +1264,9 @@
           (fill (type none))
         )
       )
-      (symbol "VCC_1_1"
+      (symbol "VDD_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
+          (name "VDD" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1460,9 +1460,6 @@
   )
   (junction (at 261.62 124.46) (diameter 0) (color 0 0 0 0)
     (uuid 42b09e33-ba7a-40ab-8a8a-8fe854a81685)
-  )
-  (junction (at 69.85 19.05) (diameter 0) (color 0 0 0 0)
-    (uuid 4940c49d-a7f8-4d60-ad91-bc60f58237af)
   )
   (junction (at 375.92 38.1) (diameter 0) (color 0 0 0 0)
     (uuid 49c99282-7dcb-4c7c-93ea-6d3c2c318e03)
@@ -1761,6 +1758,9 @@
   (junction (at 238.76 175.26) (diameter 0) (color 0 0 0 0)
     (uuid dd012667-239b-4862-ba40-72d3889791be)
   )
+  (junction (at 69.85 19.05) (diameter 0) (color 0 0 0 0)
+    (uuid dd2ae596-449b-46f7-af9d-95b182e9dcf4)
+  )
   (junction (at 238.76 153.67) (diameter 0) (color 0 0 0 0)
     (uuid dd9d958f-9042-4060-8ab0-0da070abdfd6)
   )
@@ -1851,7 +1851,6 @@
   (no_connect (at 45.72 76.2) (uuid c4e81136-5612-428f-b55d-0ced5247c6fe))
   (no_connect (at 63.5 33.02) (uuid d18bc0dd-c32b-4465-8ec5-9736a4583272))
   (no_connect (at 63.5 30.48) (uuid d775f4ae-a733-4c03-9158-553f32d1e41f))
-  (no_connect (at 39.37 96.52) (uuid ede06098-66be-4d4e-acb4-b19dc9f738f2))
 
   (wire (pts (xy 238.76 196.85) (xy 257.81 196.85))
     (stroke (width 0) (type default))
@@ -5254,36 +5253,6 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 20.32 208.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1dcce033-d3ef-4621-8a57-109f14229927)
-    (property "Reference" "#PWR030" (at 20.32 212.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 20.32 204.47 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 20.32 208.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 20.32 208.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2f00a2ac-67fa-43ff-b38a-9e2804dbb84b))
-    (instances
-      (project "redherring_v2"
-        (path "/ac76b486-7d71-4fdd-84d6-1ecd5326b6c6"
-          (reference "#PWR030") (unit 1)
-        )
-      )
-      (project "ergodonk_pcb"
-        (path "/ed1aaf15-4e1f-4159-b371-d99b3fb972ad"
-          (reference "#PWR011") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "kbd:OLED") (at 50.8 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e402bcf-07d5-4bb0-a5e5-8368bb111f2d)
@@ -6096,36 +6065,6 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 69.85 19.05 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 359242db-fdab-4410-a576-4408ab47c723)
-    (property "Reference" "#PWR026" (at 69.85 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD" (at 69.85 15.24 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 69.85 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 69.85 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2335c9a1-04d9-46a0-9f40-8b4f41cd58c1))
-    (instances
-      (project "redherring_v2"
-        (path "/ac76b486-7d71-4fdd-84d6-1ecd5326b6c6"
-          (reference "#PWR026") (unit 1)
-        )
-      )
-      (project "ergodonk_pcb"
-        (path "/ed1aaf15-4e1f-4159-b371-d99b3fb972ad"
-          (reference "#PWR021") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "red_herring_v2:SW_PUSH_LED") (at 364.49 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3931f558-d3d9-4212-8c99-160de8596ed0)
@@ -6748,6 +6687,31 @@
     )
   )
 
+  (symbol (lib_id "power:VDD") (at 69.85 19.05 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 475b3930-e87a-4609-a444-3eda4649fa98)
+    (property "Reference" "#PWR04" (at 69.85 22.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 69.85 15.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 69.85 19.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 69.85 19.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 499082a8-b788-4ede-a49f-9590f802062d))
+    (instances
+      (project "redherring_v2"
+        (path "/ac76b486-7d71-4fdd-84d6-1ecd5326b6c6"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "red_herring_v2:SW_PUSH_LED") (at 231.14 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 48aa217e-2cc2-4fc4-b2f1-67638553b1fc)
@@ -7179,7 +7143,7 @@
     (property "Value" "TIP120" (at 44.45 119.3799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical" (at 43.18 120.015 0)
+    (property "Footprint" "red_herring_v2_footprints:Tip 120 with heatsink" (at 43.18 120.015 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/TIP120-D.PDF" (at 38.1 118.11 0)
@@ -7756,7 +7720,7 @@
     )
   )
 
-  (symbol (lib_id "red_herring_v2:SW_PUSH_LED") (at 345.44 59.69 0) (mirror y) (unit 1)
+  (symbol (lib_id "red_herring_v2:SW_PUSH_LED") (at 345.44 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62f9f271-767f-4c34-a3f9-24f51bac6448)
     (property "Reference" "SW17" (at 345.44 53.34 0)
@@ -7765,7 +7729,7 @@
     (property "Value" "SW_PUSH_LED" (at 345.44 55.88 0)
       (effects (font (size 0.635 0.635)))
     )
-    (property "Footprint" "red_herring_v2_footprints:V2_CherryMX_DS_Hotswap_miniE_1U_SEED_LH" (at 344.678 54.61 0)
+    (property "Footprint" "red_herring_v2_footprints:V2_CherryMX_DS_Hotswap_miniE_1U_SEED_LH" (at 346.202 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 345.44 57.15 0)
@@ -7914,6 +7878,31 @@
       (project "redherring_v2"
         (path "/ac76b486-7d71-4fdd-84d6-1ecd5326b6c6"
           (reference "D31") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VDD") (at 44.45 100.33 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 69c5a3f9-ee99-4169-9ebc-0756a179dd8c)
+    (property "Reference" "#PWR01" (at 44.45 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 44.45 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 44.45 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 44.45 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9bb0d49b-2b95-4b2a-8d93-2d613f8be111))
+    (instances
+      (project "redherring_v2"
+        (path "/ac76b486-7d71-4fdd-84d6-1ecd5326b6c6"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -8801,36 +8790,6 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 21.59 153.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 82a0b74a-1acc-4eeb-a01d-03a0bd50d279)
-    (property "Reference" "#PWR032" (at 21.59 157.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 21.59 149.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 21.59 153.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 21.59 153.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 114fb3ac-91d2-443f-87dc-0fb2e3ac92f7))
-    (instances
-      (project "redherring_v2"
-        (path "/ac76b486-7d71-4fdd-84d6-1ecd5326b6c6"
-          (reference "#PWR032") (unit 1)
-        )
-      )
-      (project "ergodonk_pcb"
-        (path "/ed1aaf15-4e1f-4159-b371-d99b3fb972ad"
-          (reference "#PWR017") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "red_herring_v2:SW_PUSH_LED") (at 231.14 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83291aa8-d305-45fc-b877-8c4cf614cdcc)
@@ -9252,6 +9211,31 @@
       (project "redherring_v2"
         (path "/ac76b486-7d71-4fdd-84d6-1ecd5326b6c6"
           (reference "SW68") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VDD") (at 21.59 153.67 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 92ad5b7f-3419-4c6d-ab17-0bd4bc9477dc)
+    (property "Reference" "#PWR03" (at 21.59 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 21.59 149.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 21.59 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 21.59 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 96711159-a197-4abe-ae7d-f968dca8bd05))
+    (instances
+      (project "redherring_v2"
+        (path "/ac76b486-7d71-4fdd-84d6-1ecd5326b6c6"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -10629,6 +10613,31 @@
     )
   )
 
+  (symbol (lib_id "power:VDD") (at 20.32 208.28 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b518c500-fe5f-4b77-81b2-152ca8e9dcc0)
+    (property "Reference" "#PWR02" (at 20.32 212.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VDD" (at 20.32 204.47 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 20.32 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 20.32 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dfda494a-e0b8-4fad-b9b0-db938f3a43f1))
+    (instances
+      (project "redherring_v2"
+        (path "/ac76b486-7d71-4fdd-84d6-1ecd5326b6c6"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "red_herring_v2:SW_PUSH_LED") (at 506.73 63.5 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7b7b210-4c95-4cea-9a74-88cf0ae08b26)
@@ -10723,36 +10732,6 @@
       (project "redherring_v2"
         (path "/ac76b486-7d71-4fdd-84d6-1ecd5326b6c6"
           (reference "SW5") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:VCC") (at 44.45 100.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid be655357-8779-4b41-adff-d169ac76df6c)
-    (property "Reference" "#PWR01" (at 44.45 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VDD" (at 44.45 96.52 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 44.45 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 44.45 100.33 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3d4fb7c4-9cb0-4bcb-8587-2a10dc291dfd))
-    (instances
-      (project "redherring_v2"
-        (path "/ac76b486-7d71-4fdd-84d6-1ecd5326b6c6"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-      (project "ergodonk_pcb"
-        (path "/ed1aaf15-4e1f-4159-b371-d99b3fb972ad"
-          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -11882,7 +11861,7 @@
     (property "Value" "Pimaroni Trackball" (at 22.86 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "ergodonk_kicad_library:pimoroni_trackball" (at 31.75 214.63 0)
+    (property "Footprint" "red_herring_v2_footprints:pimoroni_trackball" (at 31.75 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 31.75 214.63 0)
