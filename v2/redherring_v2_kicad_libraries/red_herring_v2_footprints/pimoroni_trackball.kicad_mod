@@ -99,4 +99,9 @@
   (pad "3" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 3c76fa96-4b02-4fee-b804-efbc8688f09f))
   (pad "4" thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp e800f89b-34aa-4ee1-835c-4e2c02967ab3))
   (pad "5" thru_hole oval (at 0 10.16) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 0b686671-5990-4a52-8501-0b351041c3af))
+  (model "${KIPRJMOD}/redherring_v2_kicad_libraries/kbd.3dshapes/PIM447.step"
+    (offset (xyz 12.75 -5 -3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

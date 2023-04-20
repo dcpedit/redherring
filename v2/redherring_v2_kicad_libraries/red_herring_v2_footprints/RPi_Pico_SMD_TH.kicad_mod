@@ -605,4 +605,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KIPRJMOD}/redherring_v2_kicad_libraries/kbd.3dshapes/PICO_PinsDown.STEP"
+    (offset (xyz -10.5 -25.5 3))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 -180 180))
+  )
 )

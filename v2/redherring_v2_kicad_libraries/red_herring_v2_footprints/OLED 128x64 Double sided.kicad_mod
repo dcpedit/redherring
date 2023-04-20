@@ -111,4 +111,14 @@
       e9b2999f-1459-4b4f-a36e-914b7b382e70
     )
   )
+  (model "${KIPRJMOD}/redherring_v2_kicad_libraries/kbd.3dshapes/OLED Module with Pins Soldered.step" hide
+    (offset (xyz 0 -6 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/redherring_v2_kicad_libraries/kbd.3dshapes/OLED-Module-128x64-with-Pins.step"
+    (offset (xyz 0 -6 -3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

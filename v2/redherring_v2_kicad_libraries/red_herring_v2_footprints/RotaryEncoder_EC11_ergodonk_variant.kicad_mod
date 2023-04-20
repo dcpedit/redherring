@@ -81,4 +81,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
+  (model "${KIPRJMOD}/redherring_v2_kicad_libraries/kbd.3dshapes/EC11_Rotary_Encoder_Switched.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

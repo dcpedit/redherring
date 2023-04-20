@@ -241,4 +241,19 @@
     (chamfer_ratio 0) (chamfer top_right bottom_right) (tstamp 7d548285-636f-42de-b1ce-318259bd9b1e))
   (pad "6" smd roundrect (at -5.842 5.08 180) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
     (chamfer_ratio 0) (chamfer top_left bottom_left) (tstamp bdb18fd3-c86e-4d59-ac47-c9a02c74d9b0))
+  (model "${KIPRJMOD}/redherring_v2_kicad_libraries/kbd.3dshapes/kailh cherry socket soldered.step"
+    (offset (xyz 1.3 -7.7 -3.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/redherring_v2_kicad_libraries/kbd.3dshapes/YS-SK6812MINI-E.step"
+    (offset (xyz 0 5 -1.9))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KIPRJMOD}/redherring_v2_kicad_libraries/kbd.3dshapes/CherryMX Switch.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
