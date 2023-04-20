@@ -390,7 +390,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -429,7 +429,7 @@
         "track_width": 0.25,
         "via_diameter": 0.4,
         "via_drill": 0.25,
-        "wire_width": 6
+        "wire_width": 12
       },
       {
         "bus_width": 12,
@@ -446,7 +446,7 @@
         "track_width": 0.4,
         "via_diameter": 0.4,
         "via_drill": 0.25,
-        "wire_width": 6
+        "wire_width": 16
       },
       {
         "bus_width": 12,
@@ -463,7 +463,7 @@
         "track_width": 0.4,
         "via_diameter": 0.4,
         "via_drill": 0.25,
-        "wire_width": 6
+        "wire_width": 16
       }
     ],
     "meta": {
