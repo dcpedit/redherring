@@ -463,7 +463,7 @@
       "idf": "",
       "netlist": "redherring.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "redherring.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
