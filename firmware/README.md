@@ -61,7 +61,7 @@ You'll need the [Vial software](https://get.vial.today) if you want to remap you
 
 Source:
 
-https://github.com/dcpedit/vial-qmk/blob/dcpedit/keyboards/dcpedit/redherring
+https://github.com/dcpedit/vial-qmk-dev/blob/dcpedit/keyboards/dcpedit/redherring
 
 Use the `redherring_vial.hex` firmware.  Below is a list of commands to build.
 
