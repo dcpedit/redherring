@@ -55,6 +55,14 @@ Continue to flash as you normally would from this point (ie. QMK Toolbox using `
 
 If you're still having issues with the bootloader, you can also take a look at this detailed guide written by Protieus: [Atmega32a_Flash_Guide.pdf](https://github.com/dcpedit/redherring/blob/main/firmware/Atmega32a_Flash_Guide.pdf)
 
+## VIA Firmware (recommended)
+
+Source:
+
+https://github.com/qmk/qmk_firmware/tree/master/keyboards/dcpedit/redherring
+
+Flash the `redherring_via.hex` file and visit https://usevia.app/ to remap your keys
+
 ## Vial Firmware
 
 You'll need the [Vial software](https://get.vial.today) if you want to remap your keys.
