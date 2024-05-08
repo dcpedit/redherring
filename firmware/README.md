@@ -88,7 +88,7 @@ In order to change the image, you'll first need to create a 64x128 two-tone imag
 
 Clicking the "Generate code" button will produce the code you need.
 
-Next open the `keymap.c` file located in your vial keymap directory.  (ex: `keyboards/dcpedit/redherring/keymaps/vial`)
+Next open the `redherring.c` file in `keyboards/dcpedit/redherring/`
 
 Add a define for you image size at the top (assuming 64x128):
 
@@ -112,14 +112,16 @@ static void render_logo(void) {
 }
 ```
 
-Finally, update your `oled_task_user` function to move the cursor and display the logo.  It should look something like this:
+Finally, update your `oled_task_kb` function in `redherring.c` to display the logo.  It should look something like this:
 
 ```
-bool oled_task_user(void) {
-    oled_set_cursor(0,0);
+bool oled_task_kb(void) {
+    if (!oled_task_user()) {
+        return false;
+    }
     render_logo();
-    return false;
+    return true;
 }
 ```
 
-You can see an example image and `keymap.c` in the [example_logo folder](example_logo)
+You can see an example image in the [example_logo folder](example_logo)
