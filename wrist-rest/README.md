@@ -18,4 +18,4 @@ The following screw sizes are also needed
 |:--|:--:|:--:|
 |**Top Layer**|M2x8mm|10|
 |**Bottom Layer (upper)**|M2x6mm|5|
-|**Bottom Layer (lower)**|M2x4mm|5|
+|**Bottom Layer (lower)**|M2x5mm|5|
